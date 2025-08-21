@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { Wrench, ShoppingCart, Search, Package, Truck, ShieldCheck, Menu, Hammer, Drill, Ruler, Star, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Input } from "@/components/ui/input";
-import { Separator } from "@/components/ui/separator";
+import { Badge } from "./components/ui/badge";
+import { Input } from "./components/ui/input";
+import { Separator } from "./components/ui/separator";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "./components/ui/tabs";
 import { toast, Toaster } from "sonner";
 import { useState } from "react";
 
