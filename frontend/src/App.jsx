@@ -238,7 +238,7 @@ function SiteHeader() {
 
         <nav className="hidden md:flex items-center gap-6 text-sm">
           <a className="hover:text-blue-600 transition" href="#">Home</a>
-          <a className="hover:text-blue-600 transition" href="#">Products</a>
+          <a className="hover:text-blue-600 transition" href="/products">Products</a>
           <a className="hover:text-blue-600 transition" href="#">Deals</a>
           <a className="hover:text-blue-600 transition" href="#">Contact</a>
         </nav>
